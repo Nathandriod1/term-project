@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+\begin{document}
+
+\title{Stock Analysis Report: Apple Inc.}
+\author{}
+\date{}
+\maketitle
+
+\section*{Questions and Answers}
+
+\subsection*{Question 1: Compute the Mean and Standard Deviation of the Prices}
+
+The mean and standard deviation of the Apple stock prices for the period from Nov 2019 to Nov 2020 are computed as follows:
+
+\[
+\text{Mean Price} = 88.68756945238096
+\]
+\[
+\text{Standard Deviation} = 20.455228865439317
+\]
+
+\subsection*{Question 2: Line Graph for the Price Data}
+
+The following line graph represents the Apple stock prices from Nov 2019 to Nov 2020. The x-axis represents the days from 1 to 252, and the y-axis represents the trading price of Apple stock. The title of the graph is "Apple Stock Price, Nov 2019 to Nov 2020", the x-label is "Day", and the y-label is "Trading Price".
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{apple_stock_price.pdf}
+    \label{fig:myimage}
+\end{figure}    
+   
+    
+   
+
+
+\subsection*{Question 3: Largest Possible Profit}
+
+A trader wrote the following loop to find the largest possible profit if an investor buys and then sells a given stock. When applied to the Apple stock price data, the largest possible profit that an investor could have made from buying one share and selling it at the best dates is calculated as follows:
+
+\[
+\text{Largest Possible Profit} = 80.85 \, \text{USD}
+\]
+
+The best trading dates are:
+\begin{itemize}
+    \item Buy on day 91 (Price: 57.12 USD)
+    \item Sell on day 205 (Price: 137.98 USD)
+\end{itemize}
+
+\end{document}
+
