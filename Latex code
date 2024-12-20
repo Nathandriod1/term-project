@@ -11,6 +11,7 @@
 \maketitle
 
 \section*{Questions and Answers}
+\section*{github link: https://github.com/Nathandriod1/term-project }
 
 \subsection*{Question 1: Compute the Mean and Standard Deviation of the Prices}
 
@@ -52,4 +53,6 @@ The best trading dates are:
 \end{itemize}
 
 \end{document}
+
+
 
